@@ -95,3 +95,19 @@ h2.about__title {
     margin-left: 3px;
     margin-right: -3px;
 }
+
+..coment__subtitile {
+    margin: 11px 0 10px;
+}
+
+.bottom {
+    padding: 76px 1px 83px;
+}
+
+.comment:first-child {
+     margin: 0 20px 0 -15px;
+ }
+
+.comment:last-child {
+    margin: 0 -25px 0 20px;
+}
