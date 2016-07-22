@@ -4,49 +4,27 @@
 }
 
 .slider__text {
-    margin-left: -12px;
-    margin-right: 12px;
-    padding-right: 30px;
+    padding-right: 40px;
 }
 
 .slider__title {
     letter-spacing: -0.5px;
-    margin-bottom: 0px;
 }
 
 .slider__subtitle {
-    line-height: 24px;
-    margin-top: 0px;
     letter-spacing: -0.08px;
 }
 
 .slider__info {
-    line-height: 24px;
     letter-spacing: -0.1px;
-}
-
-.top {
-    margin-right: -20px;
-    margin-left: -12px;
-}
-
-.about:nth-child(2) {
-    padding: 20px 10px 20px 28px;
-}
-
-.about:nth-child(3) {
-    padding: 20px 0 20px 45px;
 }
 
 h2.about__title {
     font-size: 29.7px;
-    padding-left: 53px;
-    margin: 5px 0 7px;
 }
 
 .about__content {
     font-size: 15.8px;
-    padding-left: 52px;
 }
 
 .about__more {
@@ -54,23 +32,7 @@ h2.about__title {
 }
 
 .about:first-child .about__more {
-    margin-right: 13px;
-}
-
-.about:nth-child(2) .about__more {
-    margin-right: 10px;
-}
-
-.about:nth-child(3) .about__more {
-    margin-right: 3px;
-}
-
-.logo {
-    margin: -1px 13px 0 -13px;
-}
-
-.menu__item {
-    margin-right: 40px;
+    margin-right: 4px;
 }
 
 .menu__link {
@@ -91,23 +53,7 @@ h2.about__title {
     font-size: 18.5px;
 }
 
-.copy {
-    margin-left: 3px;
-    margin-right: -3px;
-}
-
-..coment__subtitile {
-    margin: 11px 0 10px;
-}
-
-.bottom {
-    padding: 76px 1px 83px;
-}
-
-.comment:first-child {
-     margin: 0 20px 0 -15px;
- }
-
-.comment:last-child {
-    margin: 0 -25px 0 20px;
+.menu--footer {
+    margin-left: -6px;
+    margin-right: 6px;
 }
