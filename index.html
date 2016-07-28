@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/pixel.css">
+    <link rel="stylesheet" href="css/media.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
@@ -40,28 +40,38 @@
                     <img src="images/iphone.png" alt="">
                 </div>
             </div>
+
+            <div class="button button--slider">
+                <span></span>
+                <span class="active"></span>
+                <span></span>
+                <span></span>
+            </div>
+
         </div>
+<div class="arrow arrow-left"></div>
+        <div class="arrow arrow-right"></div>
     </div>
 </div>
 
 <div class="wrapper-top">
     <div class="container">
         <div class="top row">
-            <div class="block about col-md-4">
+            <div class="block about col-md-4 .col-sm-4 .col-xs-12">
                 <h2 class="about__title">About our company</h2>
                 <p class="about__content">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent
                     rhoncus
                     ultrices po&shy;suere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
                 <a class="about__more" href="">Read more</a>
             </div>
-            <div class="block about col-md-4">
+            <div class="block about col-md-4 .col-sm-4 .col-xs-12">
                 <h2 class="about__title">About our company</h2>
                 <p class="about__content">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent
                     rhoncus
                     ultrices po&shy;suere. Pellentesque vel lacus eget nisi convallis auctor. Nam</p>
                 <a class="about__more" href="">Read more</a>
             </div>
-            <div class="block about col-md-4">
+            <div class="block about col-md-4 .col-sm-4 .col-xs-12">
                 <h2 class="about__title">About our company</h2>
                 <p class="about__content">Nunc turpis neque, feugiat eget eleifend et, lacinia non neque. Praesent
                     rhoncus
@@ -75,7 +85,7 @@
     <div class="container">
         <div class="middle row">
             <div class="article col-md-6">
-
+<div class="article__box"></div>
                 <div class="article__text">
                     <div class="article__image">
                         <img src="images/men.jpg" alt="">
@@ -87,34 +97,40 @@
                         neque. Mauris nec metus ultricies erat consequat dignissim non eu nisl.”
                     </div>
                 </div>
+                <div class="button">
+                    <span></span>
+                    <span class="active"></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-            <div class="recent col-md-6">
-                <h2 class="recent__title">Recent updates</h2>
-                <div class="recent-item">
-                    <img src="images/img1.jpg" alt="" class="recent-item__image">
-                    <h3 class="recent-item__title">Nunc turpis neque feugiat eget</h3>
-                    <div class="recent-item__text">
+            <div class="updates col-md-6">
+                <h2 class="updates__title">updates updates</h2>
+                <div class="updates-item">
+                    <img src="images/img1.jpg" alt="" class="updates-item__image">
+                    <h3 class="updates-item__title">Nunc turpis neque feugiat eget</h3>
+                    <div class="updates-item__text">
                         <span class="short">Posted by Admin on March 13 2012</span>
-                        <span class="long">in Recent News</span>
+                        <span class="long">in updates News</span>
                     </div>
                 </div>
-                <div class="recent-item">
-                    <img src="images/img2.jpg" alt="" class="recent-item__image">
-                    <h3 class="recent-item__title">Nunc turpis neque feugiat eget</h3>
-                    <div class="recent-item__text">
+                <div class="updates-item">
+                    <img src="images/img2.jpg" alt="" class="updates-item__image">
+                    <h3 class="updates-item__title">Nunc turpis neque feugiat eget</h3>
+                    <div class="updates-item__text">
                         <span class="short">Posted by Admin on March 13 2012</span>
                         <span class="long">in Category</span>
                     </div>
                 </div>
-                <div class="recent-item">
-                    <img src="images/img3.jpg" alt="" class="recent-item__image">
-                    <h3 class="recent-item__title">Nunc turpis neque feugiat eget</h3>
-                    <div class="recent-item__text">
+                <div class="updates-item">
+                    <img src="images/img3.jpg" alt="" class="updates-item__image">
+                    <h3 class="updates-item__title">Nunc turpis neque feugiat eget</h3>
+                    <div class="updates-item__text">
                         <span class="short">Posted by Admin on March 13 2012</span>
                         <span class="long">in Blog Updates</span>
                     </div>
                 </div>
-                <a href="" class="recent__more">Read more here</a>
+                <a href="" class="updates__more">Read more here</a>
             </div>
 
         </div>
@@ -136,16 +152,24 @@
     <div class="container">
         <div class="bottom row">
 
-            <div class="block comment col-md-4">
+            <div class="block comment pigbull col-md-4">
                 <h2 class="comment__title">PIGBULL<span>ER</span></h2>
                 <h3 class="comment__subtitile">Copyright 2013, Pingbull AS</h3>
                 <p class="comment__content">Nunc turpis neque, feugiat eget eleif&shy;end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul-</p>
             </div>
-            <div class="block comment col-md-4">
+            <div class="block comment comments col-md-4">
                 <h2 class="comment__title">RECENT COMMENTS</h2>
                 <p class="comment__content">Nunc turpis neque, feugiat eget eleif&shy;end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul&shy;vinar. Quisque urna risus, mattis pulvi&shy;nar bibendum in, venenatis quis</p>
             </div>
-            <div class="block comment col-md-4">
+            <div class="block comment  categories col-md-4">
+                <h2 class="comment__title">NEWS CATEGORIES</h2>
+                <p class="comment__content">Nunc turpis neque, feugiat eget eleif&shy;end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul&shy;vinar. Quisque urna risus, mattis pulvi&shy;nar bibendum in, venenatis quis</p>
+            </div>
+            <div class="block comment categories col-md-4">
+                <h2 class="comment__title">NEWS CATEGORIES</h2>
+                <p class="comment__content">Nunc turpis neque, feugiat eget eleif&shy;end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul&shy;vinar. Quisque urna risus, mattis pulvi&shy;nar bibendum in, venenatis quis</p>
+            </div>
+            <div class="block comment categories col-md-4">
                 <h2 class="comment__title">NEWS CATEGORIES</h2>
                 <p class="comment__content">Nunc turpis neque, feugiat eget eleif&shy;end et, lacinia non neque. Praesent rhoncus ultrices posuere. Pellentesque vel lacus eget nisi convallis auctor. Nam vitae lectus eu libero pellentesque pul&shy;vinar. Quisque urna risus, mattis pulvi&shy;nar bibendum in, venenatis quis</p>
             </div>

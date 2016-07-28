@@ -1,0 +1,31 @@
+@media all and (min-width: 480px) and (max-width: 767px) {
+
+    .block {
+        padding: 0 18px;
+    }
+}
+
+@media all and (min-width: 768px) {
+
+    .block:first-child {
+        padding-right: 30px;
+    }
+
+    .block:nth-child(2) {
+        padding: 0 18px;
+    }
+
+    .block:nth-child(3) {
+        padding-left: 38px;
+    }
+
+    .block:nth-child(n+4) {
+        display: none;
+    }
+
+}
+
+.comment.block:first-child {
+    padding-right: 38px;
+
+}
