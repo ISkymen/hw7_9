@@ -3,14 +3,33 @@
     padding: 0;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
 @font-face {
     font-family: LeagueGothic;
-    src: url(fonts/LeagueGothic-Regular.otf);
+    src: url("fonts/leaguegothic-regular-webfont.eot");
+    src: url("fonts/leaguegothic-regular-webfont.eot?iefix") format('embedded-opentype'),
+      url(fonts/LeagueGothic-Regular.otf);
 }
+
+/* font-family: "OpenSansRegular"; */
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+a img {
+    border: none; /* Убираем рамку */
+}
+
+body {
+    font-family: 'OpenSansRegular', sans-serif;
+}
+
+
 
 
 .container {
@@ -170,6 +189,7 @@ body {
     }
 
     .wrapper-top {
+        background: #745083;
         background-image: linear-gradient(to top, #322539, #745083);
         border-top: 1px solid #33253a;
         box-shadow: 0px 3px 20px 2px rgba(0,0,0,.4);
@@ -416,7 +436,7 @@ body {
     }
 
     .wrapper-footer {
-        background: #777 url("img/bottom-bg.jpg");
+        background: #777 url("img/bottom-bg.jpg") repeat-y;
         background-size: cover;
         background-position: center;
     }
@@ -962,7 +982,7 @@ body {
     }
 
     .slider__info {
-        height: 140px;
+        height: 130px;
         font-size: 18px;
     }
 
@@ -1152,6 +1172,10 @@ body {
     }
 
     .block:nth-child(n+4) {
+        display: none;
+    }
+
+    .dn {
         display: none;
     }
 
