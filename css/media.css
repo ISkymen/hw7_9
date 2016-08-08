@@ -443,7 +443,8 @@ body {
 
     .footer {
         padding-top: 40px;
-        height: 160px;
+        padding-bottom: 80px;
+        /*height: 160px;*/
     }
 
     .menu--footer {
@@ -655,12 +656,14 @@ body {
         position: relative;
         z-index: 10;
         transition: width 0.5s;
+
     }
 
     .menu--top:hover {
         height: auto;
         margin-top: 25px;
         width: 248px;
+        border: 1px solid #742063;
     }
 
     .menu__item {
@@ -685,6 +688,7 @@ body {
     .menu--top:hover .menu__item {
         border-top: 1px solid #523e5a;
         border-bottom: 2px solid #36283e;
+        background-color: #745083;
         background-color: rgba(43,34,49,0.7);
         display: block;
         padding: 6px 0 7px;
@@ -809,6 +813,7 @@ body {
     .middle {
         font-size: 0;
         padding-top: 101px;
+        padding-bottom: 13px;
     }
 
     .article {
@@ -904,6 +909,7 @@ body {
 
     .footer {
         padding-top: 44px;
+        padding-bottom: 88px;
     }
 
     .menu--footer .menu__item {
@@ -1109,7 +1115,7 @@ body {
 
     .bottom {
         font-size: 0;
-        padding-top: 87px;
+        padding-top: 100px;
     }
 
     .pigbull, .comments {
@@ -1180,7 +1186,9 @@ body {
     }
 
     .footer {
-        height: 71px;
+
+        padding-bottom: 44px;
+
     }
 
     .menu--footer {
